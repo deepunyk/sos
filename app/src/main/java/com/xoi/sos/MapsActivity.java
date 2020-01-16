@@ -60,7 +60,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             public void onMapClick(LatLng latLng)
             {
                 mGoogleMap.clear();
-                mGoogleMap.addMarker(new MarkerOptions().position(latLng).title("Custom location").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
+                mGoogleMap.addMarker(new MarkerOptions().position(latLng).title("I am here").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE)));
                 currentlocation = latLng;
 //                Toast.makeText(getApplicationContext(), currentlocation.toString(), Toast.LENGTH_SHORT).show();
                 btnsend.setOnClickListener(new View.OnClickListener() {

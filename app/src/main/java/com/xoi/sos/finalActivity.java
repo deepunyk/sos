@@ -19,7 +19,6 @@ public class finalActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         String alertloc=getIntent().getExtras().getString("latlang");
-        Toast.makeText(getApplicationContext(),alertloc.toString(), Toast.LENGTH_SHORT).show();
         tvAlertloc=(TextView)findViewById(R.id.tvAlertloc);
         tv3=(TextView)findViewById(R.id.textView3);
         ivSent=(ImageView)findViewById(R.id.ivSent);
